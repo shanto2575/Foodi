@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "name": "Cheese Burger",
+        "category": "Burger",
+        "price": 180,
+        "rating": 4.5,
+        "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd",
+        "description": "Juicy beef patty with melted cheese, lettuce, and special sauce.",
+        "isAvailable": true
+    },
+    {
+        "id": 2,
+        "name": "Chicken Biryani",
+        "category": "Rice",
+        "price": 220,
+        "rating": 4.8,
+        "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950",
+        "description": "Spicy and flavorful chicken biryani cooked with aromatic rice.",
+        "isAvailable": true
+    },
+    {
+        "id": 3,
+        "name": "Pepperoni Pizza",
+        "category": "Pizza",
+        "price": 350,
+        "rating": 4.7,
+        "image": "https://images.unsplash.com/photo-1548365328-9f547f7a8f4a",
+        "description": "Classic pizza topped with pepperoni and mozzarella cheese.",
+        "isAvailable": true
+    },
+    {
+        "id": 4,
+        "name": "French Fries",
+        "category": "Snacks",
+        "price": 120,
+        "rating": 4.2,
+        "image": "https://images.unsplash.com/photo-1576107232684-1279f390859f",
+        "description": "Crispy golden fries served with ketchup.",
+        "isAvailable": true
+    },
+    {
+        "id": 5,
+        "name": "Chocolate Milkshake",
+        "category": "Beverage",
+        "price": 150,
+        "rating": 4.6,
+        "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699",
+        "description": "Cold and creamy chocolate milkshake topped with whipped cream.",
+        "isAvailable": true
+    },
+    {
+        "id": 6,
+        "name": "Grilled Sandwich",
+        "category": "Snacks",
+        "price": 130,
+        "rating": 4.3,
+        "image": "https://images.unsplash.com/photo-1528735602780-2552fd46c7af",
+        "description": "Toasted sandwich filled with cheese and vegetables.",
+        "isAvailable": true
+    }
+]
