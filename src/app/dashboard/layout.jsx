@@ -3,12 +3,12 @@ import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import React from 'react'
 
-const DashboardLayout = ({children}) => {
-    const pathname=usePathname()
-    const dashboard=<>
-    <li><Link href={'/dashboard'} className={pathname === '/dashboard' ? 'text-red-500' : ''}>Dashboard</Link></li>
-    <li><Link href={'/dashboard/profile'} className={pathname === '/dashboard/profile' ? 'text-red-500' : ''}>Profile</Link></li>
-    <li><Link href={'/dashboard/balance'} className={pathname === '/dashboard/balance' ? 'text-red-500' : ''}>Balance</Link></li>
+const DashboardLayout = ({ children }) => {
+    const pathname = usePathname()
+    const dashboard = <>
+        <li><Link href={'/dashboard'} className={pathname === '/dashboard' ? 'text-red-500' : ''}>Dashboard</Link></li>
+        <li><Link href={'/dashboard/profile'} className={pathname === '/dashboard/profile' ? 'text-red-500' : ''}>Profile</Link></li>
+        <li><Link href={'/dashboard/balance'} className={pathname === '/dashboard/balance' ? 'text-red-500' : ''}>Balance</Link></li>
     </>
     return (
         <div className="drawer lg:drawer-open">
